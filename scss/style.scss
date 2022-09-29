@@ -33,7 +33,7 @@
     --border-radius-rounded:50%;
 }
 
-/* Top menyn */
+/* general */
 html, body{
     font-size: 16px;
     line-height: 1.5;
@@ -111,7 +111,6 @@ html, body{
         text-decoration: underline;
     }
 
-    /*Login och register */
     .form-theme {
         margin: 6rem 0;
     }
@@ -354,7 +353,7 @@ html, body{
 
 
 
-        /*Main menu navigering browse */
+
     .main-menu nav{
         border-top: 1px solid var(--color-gray-2);
         border-bottom: 1px solid var(--color-gray-2);
@@ -393,7 +392,6 @@ html, body{
         font-size: 1.4em;
     }
 
-/*Main menu navigering special offer */
     .main-menu nav .special-offer{
         flex: 7;
         display: flex;
@@ -442,7 +440,6 @@ html, body{
 
 
      /* webshop-info */
-
      .webshop-info {
         padding: 4rem 0;
      }
@@ -528,7 +525,7 @@ html, body{
      
 
 
-                 /*Shop By Category GRID */
+
             #category-box-1 {
                 grid-column: 1 /2;
                 grid-row: 1 / 2;
@@ -558,8 +555,6 @@ html, body{
                 grid-row: 3 / -1;
             }
 
-
-             /* New arrivals*/ 
 .new-arrivals {
     padding-top: 2rem; 
 }
@@ -585,8 +580,6 @@ html, body{
         transition: 0.3s ease-in-out;
         font-size: 1rem;
     }
-
-    /* New arrivals card:hover */
     .new-arrivals .card:hover .card-body {
         height: 40%;
     }
@@ -665,8 +658,6 @@ html, body{
 
     
 
-
-            /* My account Site title */ 
 .site-title {
     background-color: var(--color-theme-dark-light);
     color: #FFFFFF;
@@ -718,7 +709,6 @@ html, body{
     color: #01447e;
     text-decoration: underline;
 }
- /*My account singup-sign-in */
 
 .signup-signin {
     margin: 6rem 0;
@@ -751,8 +741,7 @@ html, body{
             z-index: -1;
             opacity: 0.5;
         }
-        
- /* Facebook och Google knap under login */
+
 .external-socialmedia-buttons {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -783,9 +772,10 @@ html, body{
     .external-socialmedia-buttons .google-button button:hover {
         filter: brightness(90%);
     }
-
-     /* Showcase1 över FEATURED PRODUCTS */
-     
+    .showcase {
+        background-color: var(--color-gray-3);
+       
+    }
     .showcase1 {
         background-color: var(--color-gray-3);
         height:450px;
@@ -847,7 +837,7 @@ html, body{
 
 
 
-      /*Showcase FLASH SALE, days, hours, minutes,seconds */
+
 .showcase2 {
 background-color: #0E153D;
 height:450px;
@@ -856,6 +846,7 @@ height:450px;
         text-align: center;
 
     }       
+
       .showcase2 .container .test2 {
         display: block;
         margin-left: auto;
@@ -870,7 +861,6 @@ height:450px;
         text-align: left;
         color: #EEEEEE;
       }
-
       .showcase2 .container .dot {
         display: inline-block;
         margin-left: 15px;
@@ -916,7 +906,7 @@ height:450px;
         color: #EEEEEE;
 
       }
-      /*FLASH SALE */
+      
     .showcase2 .showcase2-body h1 {
         font-size: 3.5rem;
         font-family: var(--font-roboto);
@@ -937,19 +927,34 @@ height:450px;
         margin-left: auto;
         box-sizing: inherit;
       }
-      .col-topseller-main img{
-        zoom:2;
-        display: block;
-        margin:auto;
-        height:auto;
-        max-height: 100%;
-        width: auto;
-        max-width: 100%;
-        object-fit: cover;
+
+      #grid1 {
+        display: grid;
+        grid-template-columns: 5fr 5fr;
+        column-gap: 2rem;
+        align-items: start;
+      }
+    #category1-box-2 {
+        grid-column: -3 / -1;
+        grid-row: 2 / -2;  
+    }
+    #category1-box-4 {
+        grid-column: 1 / 4;
+        grid-row: 2 / -1;
+    }
+    #category1-box-6 {
+        grid-column: -1 / 4;
+        grid-row: 4 / 3;
     }
 
+    .shop-by-category .categoryy-box {
+        position: relative;
 
- /*Bottom Subscribe NOW */
+        border-radius: var(--border-radius-small);
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
     .showcase11 {
         background-color: var(--color-gray-3);
     }
@@ -1001,6 +1006,16 @@ height:450px;
 
 }
 
+.col-topseller-main img{
+    zoom:2;
+    display: block;
+    margin:auto;
+    height:auto;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
 
 
 .input {
