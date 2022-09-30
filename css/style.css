@@ -393,7 +393,7 @@ html, body{
         font-size: 1.4em;
     }
 
-/*Main menu navigering special offer */
+/*Main-menu nav special-offer */
     .main-menu nav .special-offer{
         flex: 7;
         display: flex;
@@ -528,7 +528,6 @@ html, body{
      
 
 
-                 /*Shop By Category GRID */
             #category-box-1 {
                 grid-column: 1 /2;
                 grid-row: 1 / 2;
@@ -559,7 +558,7 @@ html, body{
             }
 
 
-             /* New arrivals*/ 
+             /* new-arrivals*/ 
 .new-arrivals {
     padding-top: 2rem; 
 }
@@ -666,7 +665,7 @@ html, body{
     
 
 
-            /* My account Site title */ 
+            /* site-title */ 
 .site-title {
     background-color: var(--color-theme-dark-light);
     color: #FFFFFF;
@@ -847,7 +846,7 @@ html, body{
 
 
 
-      /*Showcase FLASH SALE, days, hours, minutes,seconds */
+      /*showcase2 FLASH SALE, days, hours, minutes,seconds */
 .showcase2 {
 background-color: #0E153D;
 height:450px;
@@ -916,7 +915,7 @@ height:450px;
         color: #EEEEEE;
 
       }
-      /*FLASH SALE */
+
     .showcase2 .showcase2-body h1 {
         font-size: 3.5rem;
         font-family: var(--font-roboto);
@@ -949,7 +948,7 @@ height:450px;
     }
 
 
- /*Bottom Subscribe NOW */
+ /*showcase11 */
     .showcase11 {
         background-color: var(--color-gray-3);
     }
@@ -1000,7 +999,6 @@ height:450px;
     color: white;
 
 }
-
 
 
 .input {
