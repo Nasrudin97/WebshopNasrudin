@@ -161,14 +161,20 @@
                 <p class="card-text text-small">Registering for this site allows you to access your order status and history. Just fill in the fields below, and we’ll get a new account set up for you in no time. We will only ask you for information necessary to make the purchase process faster and easier.</p>
                 <!--signupForm-->
                 <form id="signupForm">
-                    <div class="mb-4">
-                        <label for="signup_firstName">Firstname <span class="required">*</span></label>
-                        <input id="signup_firstName" type="text" autocomplete="given-name" required>
-                    </div>
-                    <div class="mb-4">
-                        <label for="signup_lastName">LastName <span class="required">*</span></label>
-                        <input id="signup_lastName" type="text" autocomplete="family-name" required>
-                    </div>
+                    <div class="md-4">
+                        <label for="validationDefault01" class="form-label">First name</label>
+                        <input type="text" class="form-control" id="validationDefault01" value="" required>
+                        <div class="valid-feedback">
+                          Looks good!
+                        </div>
+                      </div>
+                        <div class="md-4">
+                            <label for="validationDefault02" class="form-label">Last name</label>
+                            <input type="text" class="form-control" id="validationDefault02" value="" required>
+                            <div class="valid-feedback">
+                            Looks good!
+                            </div>
+                        </div>
                     <div class="mb-4">
                         <label for="signup_email">Email <span class="required">*</span></label>
                         <input id="signup_email" type="email" autocomplete="email" required>
